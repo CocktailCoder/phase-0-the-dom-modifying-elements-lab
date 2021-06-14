@@ -14,4 +14,4 @@ document.body.remove('main');
 const newHeader = document.createElement('h1')
 newHeader.setAttribute('id','victory');
 //document.getElementById('h1').innerHTML = "Sean is the champion";
-newHeader.innerHTML = "Sean is the champion";
+newHeader.textContent = "Sean is the champion";
